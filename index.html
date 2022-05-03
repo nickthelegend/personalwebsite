@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Firas</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <link rel="stylesheet" type="text/css" href="/style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <script src="/main.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.3/dat.gui.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+
+        
+    </head>
+    <body>
+        <div id="choices" style="display:none;">
+            <div class="namediv" style="background-color: rgb(31, 31, 31);height:80vh;">
+                <div class="items">
+                    <!--WEB APP CLI GUI OTHER-->
+                    <div class="item active">
+                        <a href="/websites.html"><img src="/Webs.png"></a>
+                    </div>
+                    <div class=" item next">
+                        <a href="#"><img src="/apps.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="other.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="/gui.png"></a>
+                    </div>
+                    <div class="item prev">
+                        <a href="#"><img src="/cli.png"></a>
+                    </div>
+                    <div class="button-container">
+                        <div class="button"><i class="fa fa-angle-left"></i></div>
+                        <div class="button"><i class="fa fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marquee" id="scroll-container">
+                <span id="scroll-text" style="font-size: xx-large;color:rgb(211, 211, 211)">
+                    <b style="padding-right:400px;font-size:large;">&nbsp;</b>
+                    <b style="padding-right:100px;font-size:large;">Languages/Softwares I use</b>
+                    <i class="devicon-python-plain"></i>
+                    <i class="devicon-html5-plain"></i>
+                    <i class="devicon-css3-plain"></i>
+                    <i class="devicon-jquery-plain"></i>
+                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-mysql-plain"></i>
+                    <i class="devicon-flask-original"></i>
+                    <i class="devicon-flutter-plain"></i>
+                    <i class="devicon-c-plain"></i>
+                    <i class="devicon-bootstrap-plain"></i>
+                    <i class="devicon-npm-original-wordmark"></i>
+
+                    <i class="devicon-premierepro-plain"></i>
+                    <i class="devicon-illustrator-plain"></i>
+                    <i class="devicon-xd-plain"></i>
+
+
+                    <i class="devicon-amazonwebservices-original"></i>
+                    <i class="devicon-github-original"></i>
+                    <i class="devicon-linux-plain"></i>
+                    <i class="devicon-putty-plain"></i>
+                    <i class="devicon-vscode-plain"></i>
+
+                </span>
+            </div>
+        </div>
+        <div id="home">
+        <canvas id="c" class="cc"></canvas>
+
+        <div class="namediv">
+            <div class="container">
+                  <div class="col-sm-6">
+                      <br><Br><br>
+                        Hello! I'm <b title="Mohamed Firas Adil">Firas</b><br>
+                        <span style="font-family: 'Courier New', Courier, monospace;font-size: x-large;color:rgb(61, 255, 132)">I am 
+                        <span class="txt-rotate" data-period="1000" data-rotate='[ "a programmer.", "a web developer.", "a designer.", "an innovator.", "a COMPUTER SCIENTIST!" ]'></span>
+                        </span><br><br>
+                        
+                        <button class="buttonsend">Projects</button><br><br><br>
+                  </div>
+                  <div class="col-sm-6">
+                    <img class="namepic" src="/me.jpg" alt="">
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="fadediv"></div>
+    <footer class="footerdes">
+        <center>
+            <div id="social">
+                <ul>              
+                  <li class="linkedin">
+                    <a href="https://www.linkedin.com/in/mohamed-firas-a-8b8206210/" target="_blank"><button class="border"><i class="fa fa-linkedin"></i></button></a>
+                  </li>
+              
+                  <li class="instagram">
+                    <a href="https://www.instagram.com/mohamedfiras.a/" target="_blank"><button class="border"><i class="fa fa-instagram"></i></button></a>
+                  </li>
+                  
+                  <li class="github">
+                    <a href="https://github.com/Fir121" target="_blank"><button class="border"><i class="fa fa-github"></i></button></a>
+                  </li>
+                </ul>
+              </div>
+        </center>
+    </footer>
+
+    </body>
+    <script src="/slider.js"></script>
+    <script src="/other.js"></script>
+    <script>
+        function hideAll(){
+            $("#home").fadeOut("fast", function(){
+                $("#choices").fadeIn(); 
+            });
+        }
+
+        function unHideAll(){
+            $("#choices").fadeOut("fast", function(){
+                $("#home").fadeIn(); 
+            });
+        }
+
+        $(".buttonsend").click(function(){
+            hideAll();
+            window.history.pushState({"change":true},'');
+        })
+        $(window).on("popstate",function(e){
+            unHideAll();   
+        })
+    </script>
+</html>
