@@ -61,6 +61,7 @@ a{
 .buttonsend{
     text-decoration: none;
     display: inline-block;
+    margin-right: 20px;
     outline: 0;
     border: 0;
     cursor: pointer;
@@ -78,14 +79,14 @@ a{
 
 .buttonsend:hover{
     text-decoration: none;
-    color: rgb(211, 211, 211);
     transform: translateY(-2px);
     box-shadow: 0 0 0 1px rgb(0, 255, 94) inset;
 }
 
   #social {
-    display: table-cell;
     vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #social ul {
