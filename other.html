@@ -42,20 +42,17 @@
     <div class="row">
         <div class="col-sm-12" style="text-align: center;"><h1 style="font-size:xx-large;color:white;font-weight: bolder;margin-top: 30px;margin-bottom: 30px;"><a href="/index.html"><i class="fa fa-home" aria-hidden="true"></i></a> > OTHER</h1></div>
 
-        <!--
         <div class="col-sm-10" id="cardmain">
-            <div id="1" class="carousel slide" data-ride="carousel" style="height:min(60vh,50vw);overflow:hidden;" data-interval="false">
+            <div id="contract-maker" class="carousel slide" data-ride="carousel" style="height:min(60vh,50vw);overflow:hidden;" data-interval="false">
                 <div class="carousel-inner">
-                <div class="carousel-item active" id="imgcarousel" style="background-image: url('/images/streamgrounds/1.jpg');"></div>
-                <div class="carousel-item" id="imgcarousel" style="background-image: url('/images/streamgrounds/2.jpg');"></div>
-                <div class="carousel-item" id="imgcarousel" style="background-image: url('/images/streamgrounds/3.jpg');"></div>
-                <div class="carousel-item" id="imgcarousel" style="background-image: url('/images/streamgrounds/4.jpg');"></div>
+                <div class="carousel-item active" id="imgcarousel" style="background-image: url('/images/contract/2.jpg');"></div>
+                <div class="carousel-item" id="imgcarousel" style="background-image: url('/images/contract/1.jpg');"></div>
                 </div>
-                <a class="carousel-control-prev" href="#1" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#contract-maker" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#1" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#contract-maker" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
                 </a>
@@ -63,20 +60,17 @@
 
             <div class="col-sm-12" style="margin-top:20px;font-size: large;">
                 <div class="col-sm-12">
-                <div class="col-sm-10">
+                <div class="col-sm-12">
                     <br>
-                    <h1><b>StreamGrounds</b></h1><br>
+                    <h1><b>Contract Maker</b> <a href="#contract-maker" style="color:blue;"><i class="fa fa-link" aria-hidden="true"></i></a></h1><br>
                     <p style="font-size: medium;">
-                        At StreamGrounds users can download torrents and store them, so they can watch them from any device just like NETFLIX (but without content limitations ;).
-<br><br>User accounts are linked to my service called TheGrounds (<A style="color:blue" target="_blank" href="https://thegrounds.pythonanywhere.com">link here</A>) with sign ups based on a referral system.
-<br><br>Screenshots show a sample torrent of a public domain Charlie Chaplin movie torrent.
-<br><br>Currently the website deletes movies after 14 days to save space since my home server (RPi 4) is limited.
+                        Contract Maker is a telegram bot built to help a relative manage their property renting needs.
+<br><br>This bot was custom built so the user could generate contracts with a simple chatbot instead of a long process of manually entering all the data for each new tenant. 
+<br><br>Additionally, the bot generates monthly income reports and sends a reminder a few weeks before each renewal via email.
+<br><br>This program has reduced time spent on contract creation by nearly 90% which is a testament to automation and it’s benefits.
+
 
                     </p>
-                </div>
-                <div class="col-sm-2"><br>
-                    <h1><b>Links</b></h1><br>
-                    <a style="color:blue" target="_blank" href="https://thegrounds.pythonanywhere.com/streamgrounds">WEBSITE</a>
                 </div>
             </div>
             <div class="col-sm-12">
@@ -84,25 +78,85 @@
                     <br>
                     <h2><b>Features</b></h1>
                     <ul style="font-size: medium;">
-                        <li>Intuitive workflow</li>
-                        <li>Downloads sharing between users to eliminate initial download time</li>
-                        <li>Pick Up where you left off watching</li>
+                        <li>Automatically calculates the ending date of the contract</li>
+                        <li>User can view any existing contracts as a pdf or a word file</li>
+                        <li>Photo scan feature allows the user to send a screenshot of the tenants aadhar/other and the bot extracts the information</li>
                     </ul>
                 </div>
                 <div class="col-sm-6"><br>
                     <h2><b>Technologies</b></h1>
                     <ul style="font-size: medium;">
-                        <li><u>Frontend:</u> HTML, CSS, JS</li>
-                        <li><u>Backend:</u> Python, Bash</li>
-                        <li><u>Server and API:</u> Python Flask </li>
-                        <li><u>Website Hosting and Storage:</u> A Raspberry Pi 4 running Ubuntu 20.04 LTS at my home, the website uses ngrok to interface with the WAN</li>
+                        Python running on a Raspberry Pi 4    
                     </ul>
                 </div>
             </div>
             </div>
         </div>
-        -->
 
+        <div class="col-sm-10" id="cardmain">
+            <div id="bits-courses" class="carousel slide" data-ride="carousel" style="height:min(60vh,50vw);overflow:hidden;" data-interval="false">
+                <div class="carousel-inner">
+                <div class="carousel-item active" id="imgcarousel" style="background-image: url('/images/bits/1.jpg');"></div>
+                </div>
+            </div>
+
+            <div class="col-sm-12" style="margin-top:20px;font-size: large;">
+                <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <br>
+                    <h1><b>Test Reminder Bot</b> <a href="#bits-courses" style="color:blue;"><i class="fa fa-link" aria-hidden="true"></i></a></h1><br>
+                    <p style="font-size: medium;">
+                        I built bits test to remind me of upcoming quizzes, tests or assignments.
+                        <br><br>Bits_test bot allows me to add/delete courses and later view upcoming components.
+                        <br><Br>Additionally it sends me an email a few days before any upcoming component.
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="col-sm-6"><br>
+                    <h2><b>Technologies</b></h1>
+                    <ul style="font-size: medium;">
+                        Python running on a Raspberry Pi 4    
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-sm-10" id="cardmain">
+            <div id="thegrounds" class="carousel slide" data-ride="carousel" style="height:min(60vh,50vw);overflow:hidden;" data-interval="false">
+                <div class="carousel-inner">
+                <div class="carousel-item active" id="imgcarousel" style="background-image: url('/images/thegrounds/1.jpg');"></div>
+                </div>
+            </div>
+
+            <div class="col-sm-12" style="margin-top:20px;font-size: large;">
+                <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <br>
+                    <h1><b>TheGrounds</b> <a href="#thegrounds" style="color:blue;"><i class="fa fa-link" aria-hidden="true"></i></a></h1><br>
+                    <p style="font-size: medium;">
+                        TheGrounds began back in September 2020, over time it evolved adding more and more softwares/websites. Currently TheGrounds is a suite of the following:
+    
+<ul>
+    <li><A style="color:blue" href="/cli.html#theunderground">TheUnderGround</A></li>
+    <li><A style="color:blue" href="/cli.html#theaboveground">TheAboveGround</A></li>
+    <li><A style="color:blue" href="/websites.html#streamgrounds">StreamGrounds</A></li>
+    <li><A style="color:blue" href="/websites.html#fairgrounds">FairGrounds</A></li>
+    <li><A style="color:blue" href="/cli.html#themusicground">TheMusicGround</A></li>
+</ul>
+All of the above are regularly updated to keep bugs to a minimum and to add new features. While there are less than 20 users mostly friends, I find that TheGrounds was a great learning experience, and the control over data and features is unbeatable.
+<br><Br>
+    Most of TheGrounds software are very valuable to me personally since I use them a lot in the day to day.
+
+
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
         <div class="col-sm-12" style="text-align: center;margin-bottom:10vh;font-size: large;color:white;"><a href="/websites.html">WEBSITES</a> &nbsp;◉&nbsp; <a href="/cli.html">CLI</a> &nbsp;◉&nbsp; <a href="/apps.html">APPS</a> &nbsp;◉&nbsp; <a href="/gui.html">GUI</a> &nbsp;◉&nbsp; <a href="/other.html">OTHER</a></div>
     </div>
 </div>
