@@ -1,5 +1,7 @@
 body{
-  overflow-x:hidden;
+  position: absolute; 
+  width: 100%; 
+  overflow-x: hidden;
 }
 .fadediv{
   z-index: -2;
@@ -43,7 +45,7 @@ a{
 }
 
 .footerdes{
-    height:10vh;
+    min-height:10vh;
     width: 100vw;
     background-color: rgb(26, 26, 26);
     padding-top:2vh;
@@ -233,7 +235,6 @@ a{
   }
 
   .items {
-    position: absolute;
     top: 42.5%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -328,9 +329,10 @@ a{
     box-sizing: border-box;
     padding: 0;
     height:10vh;
+    line-height: 10vh;
     width:100vw;
     display: block;
-    line-height: 10vh;
+    background-color: black;
 }
 .marquee span {
     display: inline-block;
